@@ -5,13 +5,13 @@
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-}
-.logo__accent {
-    color: var(--brand-color)
-}
-.logo--theme-dark {
-    color: var(--total-black);
-}
-.logo--theme-light {
-    color: var(--main-white);
+    &__accent {
+        color: var(--brand-color)
+    }
+    &--theme-dark {
+        color: var(--total-black);
+    }
+    &--theme-light {
+        color: var(--main-white);
+    }
 }
